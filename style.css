@@ -7,7 +7,6 @@ you're new to CSS they may seem a little complicated, but you can scroll down
 to this section's matching END comment to see page-specific styles.
 ******************************************************************************/
 
-
 /* 
   The style rules specify elements by type and by attributes such as class and ID
   Each section indicates an element or elements, then lists the style properties to apply
@@ -16,9 +15,9 @@ to this section's matching END comment to see page-specific styles.
 
 /* Our default values set as CSS variables */
 :root {
-  --color-bg: #C3D69B;
+  --color-bg: #c3d69b;
   --color-text-main: #000000;
-  --color-primary: #FFFF00;
+  --color-primary: #ffff00;
   --wrapper-height: 87vh;
   --image-max-width: 300px;
   --image-margin: 3rem;
@@ -37,14 +36,11 @@ to this section's matching END comment to see page-specific styles.
 /* Import fonts */
 @font-face {
   font-family: Arial;
-
 }
 @font-face {
   font-family: Arial;
   font-weight: bold;
 }
-
-
 
 /******************************************************************************
 END Glitch hello-app default styles
@@ -58,37 +54,31 @@ body {
 /* Page structure */
 .wrapper {
   min-height: var(--wrapper-height);
-  display: grid;
+  display: grd;
   place-items: center;
   margin: 0 1rem;
 }
 .content {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   justify-content: center;
 }
 
-/* Very light scaling for our illustration */
 .title {
   color: black;
   font-family: Arial;
   font-style: normal;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 18px;
   margin: 0;
-}
-
-/* Very light scaling for our illustration */
-.illustration {
-  max-width: 100%;
-  max-height: var(--image-max-width);
-  margin-top: var(--image-margin);
 }
 
 /* Instructions */
 .instructions {
   margin: 1rem auto 0;
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
 }
 
 /* Button - Add it from the README instructions */
@@ -96,7 +86,7 @@ button,
 input {
   font-family: inherit;
   font-size: 100%;
-  background: #FFFFFF;
+  background: #ffffff;
   border: 1px solid #000000;
   box-sizing: border-box;
   border-radius: 4px;
@@ -106,7 +96,7 @@ input {
 
 /* Subheading */
 h2 {
-  color: #2800FF;
+  color: #2800ff;
 }
 
 /* Interactive image */
@@ -124,11 +114,11 @@ h2 {
 
 /* Links that open files in the editor */
 .fileopener {
-  cursor:pointer;
-  font-weight:bold;
-  border-bottom:3px solid var(--color-primary);
+  cursor: pointer;
+  font-weight: bold;
+  border-bottom: 3px solid var(--color-primary);
   color: var(--color-secondary);
 }
 .fileopener:hover {
-  border-bottom:3px solid var(--color-secondary);
+  border-bottom: 3px solid var(--color-secondary);
 }
