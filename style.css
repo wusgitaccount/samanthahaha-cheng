@@ -79,6 +79,7 @@ body {
   margin: 1rem auto 0;
   display: inline-grid;
   grid-template-columns: auto auto auto;
+  gap: 50px 50px;
 }
 
 /* Button - Add it from the README instructions */
