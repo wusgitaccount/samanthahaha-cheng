@@ -133,11 +133,17 @@ h2 {
   transform: translateY(5px);
 }
 
-@media (max-width: 200px)
-.boxes {
-    grid-template-columns: repeat(2, 1fr);
-}
+@media screen and (max-width: 768px) {
+  .boxes {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+   }
 
+  .cell-1, .cell-2, .cell-3, .cell-4, .cell-5, .cell-6 {
+    grid-column: auto;
+    grid-row: auto;
+  }
+}
 /* Button dip
 - Toggling this class on and off will move it down and up again
 - The button transition property above determines the speed of the translate (500ms)
