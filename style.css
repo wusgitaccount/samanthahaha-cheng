@@ -79,7 +79,14 @@ body {
   margin: 1rem auto 0;
   display: inline-grid;
   grid-template-columns: auto auto auto auto;
-  gap: 50px 50px;
+  gap: 200px 200px;
+  align-content: center;
+  height: 400px;
+  background-color: #2196F3;
+}
+
+.instructions.child {
+
   align-content: center;
   height: 400px;
   background-color: #2196F3;
