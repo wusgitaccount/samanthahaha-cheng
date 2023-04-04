@@ -56,7 +56,7 @@ body {
   min-height: var(--wrapper-height);
   display: grd;
   place-items: center;
-  margin: 0 10rem;
+  margin: 0 5rem;
 }
 .content {
   display: flex;
@@ -87,22 +87,25 @@ body {
     line-height: 1.6;
     text-align: center;
     margin: 5em 0 0;
+  
 
 }
 
 .box-content {
-  position: relative;
+  width: 100%;
+    position: relative;
     padding: 50px;
     overflow: hidden;
     overflow-y: auto;
-    border-radius: 24px;
+    border-radius: 25px;
     border: 1px solid #000000;
     text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 350px;
-  
+    height: 300px;
+    float: left;
+
 }
  {
     box-sizing: border-box;
@@ -130,9 +133,9 @@ h2 {
   transform: translateY(5px);
 }
 
-@media (max-width: 1200px)
-#instructions {
-    grid-template-columns: repeat(4, 1fr);
+@media (max-width: 200px)
+.boxes {
+    grid-template-columns: repeat(2, 1fr);
 }
 
 /* Button dip
