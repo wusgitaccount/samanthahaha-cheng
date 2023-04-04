@@ -56,7 +56,7 @@ body {
   min-height: var(--wrapper-height);
   display: grd;
   place-items: center;
-  margin: 0 1rem;
+  margin: 0 10rem;
 }
 .content {
   display: flex;
