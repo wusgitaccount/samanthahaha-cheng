@@ -79,20 +79,28 @@ body {
 
 /* Instructions */
 .instructions {
-  margin: 1rem auto 0;
-  display: inline-grid;
-  grid-template-columns: auto auto auto auto;
-  gap: 200px 200px;
-  align-content: center;
-  height: 400px;
-  background-color: #2196F3;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 8px;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1em;
+    line-height: 1.6;
+    text-align: center;
+      border-radius: 24px;
+    border: 1px solid #000000;
 }
 
 .instructions.child {
-
-  align-content: center;
-  height: 400px;
-  background-color: #2196F3;
+  position: relative;
+    padding: 50px;
+    overflow: hidden;
+    overflow-y: auto;
+    border-radius: 24px;
+    border: 1px solid #000000;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Button - Add it from the README instructions */
