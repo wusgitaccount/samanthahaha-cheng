@@ -71,15 +71,18 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  margin: 0;
+  margin: 15px;
 }
 
 /* Instructions */
 .instructions {
   margin: 1rem auto 0;
   display: inline-grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
   gap: 50px 50px;
+  align-content: center;
+  height: 400px;
+  background-color: #2196F3;
 }
 
 /* Button - Add it from the README instructions */
