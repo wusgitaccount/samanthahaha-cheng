@@ -77,16 +77,19 @@ body {
     margin-inline-end: 0px;
 }
 
-a:hover {
-  text-shadow: 0 0 4px rgba(0,0,0,0.7);
-  color: transparent;
-}
-a:link {
+a.title:link {
   text-decoration: none;
 }
-a:visited {
+a.title:visited {
   color: black;
+  text-decoration: none;
 }
+a.title:hover {
+  text-shadow: 0 0 4px rgba(0,0,0,0.7);
+  color: transparent;
+  text-decoration: none;
+}
+
 
 /* Instructions */
 .boxes {
@@ -129,6 +132,7 @@ a:visited {
     justify-content: center;
     height: 300px;
     float: left;
+    
 }
 .box-video {
   width: 100%;
