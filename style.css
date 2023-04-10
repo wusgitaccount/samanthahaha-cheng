@@ -90,7 +90,6 @@ a:hover {
   text-decoration: none;
 }
 
-
 /* Instructions */
 .boxes {
     display: grid;
@@ -140,7 +139,7 @@ a:hover {
     position: relative;
     padding: 50px;
     overflow: hidden;
-    overflow-y: auto;
+    overflow-y: hidden;
     border-radius: 25px;
     border: 2px solid #B66D31;
     text-decoration: none;
@@ -169,6 +168,13 @@ a:hover {
 }
  {
     box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 12px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
 }
 
 @media screen and (max-width: 768px) {
