@@ -55,7 +55,7 @@ body {
 .wrapper {
   min-height: var(--wrapper-height);
   display: grid;
-  place-items: center;
+  place-items: top;
   margin: 0 10rem;
 }
 }
@@ -63,7 +63,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: left;
-  justify-content: center;
+  justify-content: top;
 }
 
 .title {
