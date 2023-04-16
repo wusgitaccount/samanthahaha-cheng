@@ -15,7 +15,7 @@ to this section's matching END comment to see page-specific styles.
 
 /* Our default values set as CSS variables */
 :root {
-  --color-bg: #FEF2CF;
+  --color-bg: white;
   --color-text-main: #000000;
   --color-primary: #ffff00;
   --wrapper-height: 87vh;
@@ -147,7 +147,7 @@ a:hover {
 .box-video {
     width: 100%;
     position: relative;
-    padding: 50px;
+    padding: 15px;
     overflow: hidden;
     overflow-y: auto;
     border-radius: 25px;
@@ -163,7 +163,7 @@ a:hover {
 .box-concern {
     width: 100%;
     position: relative;
-    padding: 50px;
+    padding: 15px;
     overflow: hidden;
     overflow-y: hidden;
     border-radius: 25px;
@@ -198,7 +198,6 @@ a:hover {
 
 img {
     max-width: 75%;
-    border-radius: 12px;
     overflow-clip-margin: content-box;
     overflow: clip;
 }
