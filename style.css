@@ -35,10 +35,10 @@ to this section's matching END comment to see page-specific styles.
 
 /* Import fonts */
 @font-face {
-  font-family: Arial;
+  font-family: helvetica;
 }
 @font-face {
-  font-family: Arial;
+  font-family: helvetica;
   font-weight: bold;
 }
 
@@ -47,7 +47,7 @@ END Glitch hello-app default styles
 ******************************************************************************/
 
 body {
-  font-family: Arial;
+  font-family: helvetica;
   background-color: var(--color-bg);
 }
 
@@ -86,14 +86,14 @@ body {
   height: 30px;
   width: 30px;
   float: left;
-  border: 1px solid #8C3836;
+  /*border: 1px solid #8C3836;*/
   background-color: #F79646;   
 }
 .video {
   height: 30px;
   width: 30px;
   float: left;
-  border: 1px solid #8C3836;
+  /*border: 1px solid #8C3836;*/
   background-color: #C0504D;  
   
 }
@@ -101,7 +101,7 @@ body {
   height: 30px;
   width: 30px;
   float: left;
-  border: 1px solid #357D91;
+  /*border: 1px solid #357D91;*/
   background-color: #4BACC6; 
 }
 
