@@ -77,6 +77,7 @@ body {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
 #food {
   max-height: 50px;
   overflow-y: hidden;
@@ -112,9 +113,10 @@ a:link {
 a:visited {
   color: black;
 }
-a:hover {
+.box-about:hover, .box-video:hover, .box-writing:hover {
     webkit-filter: blur(4px); /* Chrome, Safari, Opera */
     filter: blur(4px);
+    transform: scale(1.2)
 }
 
 /* Instructions */
