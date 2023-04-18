@@ -116,7 +116,7 @@ a:visited {
 .box-about:hover, .box-video:hover, .box-writing:hover, .box-concern:hover {
     webkit-filter: blur(4px); /* Chrome, Safari, Opera */
     filter: blur(4px);
-    transform: scale(1.1)
+    transform: scale(1.05)
 }
 .concern:hover, .video:hover, .writing:hover  {
     transform: scale(2)
