@@ -116,7 +116,8 @@ a:visited {
 .box-about:hover, .box-video:hover, .box-writing:hover, .box-concern:hover {
     webkit-filter: blur(0px); /* Chrome, Safari, Opera */
     filter: blur(0px);
-    transform: scale(1.5)
+    transform: scale(1.5);
+    
 }
 .concern:hover, .video:hover, .writing:hover  {
     transform: scale(2)
@@ -135,6 +136,8 @@ a:visited {
 }
 
 .box-about {
+      webkit-filter: blur(1px); /* Chrome, Safari, Opera */
+    filter: blur(1px);
   width: 100%;
     position: relative;
     padding: 50px;
@@ -148,9 +151,12 @@ a:visited {
     justify-content: center;
     height: 300px;
     float: left;
+  
 }
 
-.box-video {
+.box-video {     
+    webkit-filter: blur(1px); /* Chrome, Safari, Opera */
+    filter: blur(1px);
     width: 100%;
     position: relative;
     padding: 15px;
@@ -166,7 +172,9 @@ a:visited {
     float: left;
     background-color: #C0504D;  
 }
-.box-concern {
+.box-concern {     
+  webkit-filter: blur(1px); /* Chrome, Safari, Opera */
+    filter: blur(1px);
     width: 100%;
     position: relative;
     padding: 15px;
@@ -182,7 +190,9 @@ a:visited {
     float: left;
     background-color: #F79646;  
 }
-.box-writing {
+.box-writing {     
+    webkit-filter: blur(1px); /* Chrome, Safari, Opera */
+    filter: blur(1px);
     width: 100%;
     position: relative;
     padding: 50px;
