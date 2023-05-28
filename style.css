@@ -21,8 +21,8 @@ to this section's matching END comment to see page-specific styles.
   --wrapper-height: 87vh;
   --image-max-width: 300px;
   --image-margin: 3rem;
-  --font-family: "courier";
-  --font-family-header: "courier";
+  --font-family: "helvetica";
+  --font-family-header: "helvetica";
 }
 
 /* Basic page style resets */
@@ -35,10 +35,10 @@ to this section's matching END comment to see page-specific styles.
 
 /* Import fonts */
 @font-face {
-  font-family: courier;
+  font-family: helvetica;
 }
 @font-face {
-  font-family: courier;
+  font-family: helvetica;
   font-weight: bold;
 }
 
@@ -47,7 +47,7 @@ END Glitch hello-app default styles
 ******************************************************************************/
 
 body {
-  font-family: courier;
+  font-family: helvetica;
   background-color: white;
 }
 
