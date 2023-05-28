@@ -48,7 +48,7 @@ END Glitch hello-app default styles
 
 body {
   font-family: courier;
-  background-color: var(--color-bg);
+  background-color: white;
 }
 
 /* Page structure */
@@ -58,7 +58,7 @@ body {
   place-items: top;
   margin: 0 10rem;
 }
-}
+
 .content {
   display: flex;
   flex-direction: column;
@@ -119,6 +119,9 @@ a:visited {
     filter: blur(0px);
     /*transform: scale(1.5);*/
     
+}
+.box-video:hover ~ .wrapper {
+    background: #C0504D; 
 }
 .concern:hover, .video:hover, .writing:hover  {
     transform: scale(2)
