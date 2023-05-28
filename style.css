@@ -114,9 +114,10 @@ a:visited {
   color: black;
 }
 .box-about:hover, .box-video:hover, .box-writing:hover, .box-concern:hover {
-    webkit-filter: blur(0px); /* Chrome, Safari, Opera */
+    border-radius: 0px 25px 25px 25px;
+    /* webkit-filter: blur(0px); /* Chrome, Safari, Opera */
     filter: blur(0px);
-    transform: scale(1.5);
+    /*transform: scale(1.5);*/
     
 }
 .concern:hover, .video:hover, .writing:hover  {
@@ -136,9 +137,9 @@ a:visited {
 }
 
 .box-about {
-      webkit-filter: blur(1px); /* Chrome, Safari, Opera */
-    filter: blur(1px);
-  width: 100%;
+    /* webkit-filter: blur(1px); /* Chrome, Safari, Opera 
+    filter: blur(1px); */
+    width: 100%;
     position: relative;
     padding: 50px;
     overflow: hidden;
@@ -155,8 +156,8 @@ a:visited {
 }
 
 .box-video {     
-    webkit-filter: blur(1px); /* Chrome, Safari, Opera */
-    filter: blur(1px);
+    /* webkit-filter: blur(1px); /* Chrome, Safari, Opera 
+    filter: blur(1px); */
     width: 100%;
     position: relative;
     padding: 15px;
@@ -173,8 +174,8 @@ a:visited {
     background-color: #C0504D;  
 }
 .box-concern {     
-  webkit-filter: blur(1px); /* Chrome, Safari, Opera */
-    filter: blur(1px);
+    /* webkit-filter: blur(1px); /* Chrome, Safari, Opera 
+    filter: blur(1px); */
     width: 100%;
     position: relative;
     padding: 15px;
@@ -191,8 +192,8 @@ a:visited {
     background-color: #F79646;  
 }
 .box-writing {     
-    webkit-filter: blur(1px); /* Chrome, Safari, Opera */
-    filter: blur(1px);
+    /* webkit-filter: blur(1px); /* Chrome, Safari, Opera 
+    filter: blur(1px); */
     width: 100%;
     position: relative;
     padding: 50px;
