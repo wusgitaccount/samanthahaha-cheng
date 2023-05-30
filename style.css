@@ -204,8 +204,7 @@ a:visited {
 }
 
 img {
-    height: 50%;
-    width:auto;
+    height: 180px;
     /*width: 75%;
     /*overflow: clip;
     overflow-clip-margin: content-box;*/
