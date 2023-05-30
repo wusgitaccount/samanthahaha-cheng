@@ -217,6 +217,7 @@ a:visited {
 }
 
 img {
+   
     max-width: 75%;
     overflow-clip-margin: content-box;
     overflow: clip;
