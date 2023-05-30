@@ -113,19 +113,6 @@ a:link {
 a:visited {
   color: black;
 }
-.box-about:hover, .box-video:hover, .box-writing:hover, .box-concern:hover {
-    border-radius: 0px 25px 25px 25px;
-    /* webkit-filter: blur(0px);  
-    filter: blur(0px);
-    transform: scale(1.5);*/
-    
-}
-.box-video:hover ~ .wrapper {
-    background: #C0504D; 
-}
-.concern:hover, .video:hover, .writing:hover  {
-    transform: scale(2)
-}
 
 /* Instructions */
 .boxes {
@@ -165,7 +152,7 @@ a:visited {
     position: relative;
     padding: 15px;
     overflow: hidden;
-    overflow-y: auto;
+    overflow-y: hidden;
     border-radius: 25px;
     /*border: 2px solid #8C3836;*/
     text-decoration: none;
@@ -217,10 +204,12 @@ a:visited {
 }
 
 img {
-   
-    max-width: 75%;
-    overflow-clip-margin: content-box;
-    overflow: clip;
+    height: 200px;
+    width: 75%;
+    /*overflow: clip;
+    overflow-clip-margin: content-box;*/
+    margin: auto;
+    display: block;
 }
 
 @media screen and (max-width: 820px) {
@@ -240,21 +229,17 @@ img {
     margin:  0 5rem;
   }
   }
-/* Button dip
-- Toggling this class on and off will move it down and up again
-- The button transition property above determines the speed of the translate (500ms)
-*/
-.dipped {
-  transform: translateY(5px);
-}
 
-/* Links that open files in the editor */
-.fileopener {
-  cursor: pointer;
-  font-weight: bold;
-  border-bottom: 3px solid var(--color-primary);
-  color: var(--color-secondary);
+.box-about:hover, .box-video:hover, .box-writing:hover, .box-concern:hover {
+    border-radius: 0px 25px 25px 25px;
+    /* webkit-filter: blur(0px);  
+    filter: blur(0px);
+    transform: scale(1.5);*/
+    
 }
-.fileopener:hover {
-  border-bottom: 3px solid var(--color-secondary);
+.box-video:hover ~ .wrapper {
+    background: #C0504D; 
+}
+.concern:hover, .video:hover, .writing:hover  {
+    transform: scale(2)
 }
