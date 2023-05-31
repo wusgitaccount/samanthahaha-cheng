@@ -203,11 +203,11 @@ a:visited {
     box-sizing: border-box;
 }
 
-img {
-    height: 180px;
-    /*width: 75%;
-    /*overflow: clip;
-    overflow-clip-margin: content-box;*/
+img {  
+    max-width: 75%;
+    max-height: 50%;
+    overflow: clip;
+    overflow-clip-margin: content-box;
     margin: auto;
     display: block;
 }
@@ -231,10 +231,14 @@ img {
   }
 
 .box-about:hover, .box-video:hover, .box-writing:hover, .box-concern:hover {
-    border-radius: 0px 25px 25px 25px;
-    /* webkit-filter: blur(0px);  
+      box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+
+    /* webkit-filter: blur(0px); 
+      box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
     filter: blur(0px);
-    transform: scale(1.5);*/
+    transform: scale(1.5);    
+    border-radius: 0px 25px 25px 25px;
+    */
     
 }
 .box-video:hover ~ .wrapper {
