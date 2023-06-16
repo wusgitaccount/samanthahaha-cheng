@@ -233,15 +233,21 @@ img {
 .box-about:hover, .box-video:hover, .box-writing:hover, .box-concern:hover {
      /*  box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green; 
       transform: scale(1.5);    
-*/
-    animation: swing ease-in-out 1s infinite alternate;
-    webkit-filter: blur(0px); 
+      border-radius: 0px 25px 25px 25px;
+      webkit-filter: blur(0px); 
     filter: blur(0px);
-    border-radius: 0px 25px 25px 25px;
-   
+*/
+    animation: tilt-shaking 0.25s infinite;
     
 }
 
+@keyframes tilt-shaking {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  50% { transform: rotate(0eg); }
+  75% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
 
 .concern:hover, .video:hover, .writing:hover  {
     transform: scale(2);
