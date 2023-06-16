@@ -140,7 +140,6 @@ a:visited {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 300px;
     float: left;
   
 }
@@ -159,7 +158,6 @@ a:visited {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 300px;
     float: left;
     background-color: #C0504D;  
 }
@@ -177,7 +175,6 @@ a:visited {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 300px;
     float: left;
     background-color: #F79646;  
 }
@@ -195,7 +192,6 @@ a:visited {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 300px;
     float: left;
     background-color: #4BACC6;  
 }
