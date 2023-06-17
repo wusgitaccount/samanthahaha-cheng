@@ -19,11 +19,3 @@ console.log("Hello 🌎");
     }, 500);
 }(" Hello! Welcome to Samantha Cheng's virtual space :) "));
 
-$(function() {
-  $('.box-concern').hover(function() {
-    $('.content').css('background-color', 'yellow');
-  }, function() {
-    // on mouseout, reset the background colour
-    $('.content').css('background-color', '');
-  });
-});
