@@ -56,7 +56,7 @@ body {
   min-height: var(--wrapper-height);
   display: grid;
   place-items: top;
-  margin: 0 10rem;
+  margin: 0 5rem;
 }
 
 .content {
@@ -118,7 +118,7 @@ a:visited {
 .boxes {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 50px;
+    grid-gap: 45px;
     -webkit-font-smoothing: antialiased;
     font-size: 1em;
     line-height: 1.6;
