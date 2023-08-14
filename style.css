@@ -278,7 +278,7 @@ a:visited {
 }
 
 .gallery label:before {
-  border: 1px solid #e3e3e3;
+  border: 1px solid #F79646;
   content: '';
   position: absolute;
   left: -5px;
@@ -302,5 +302,5 @@ a:visited {
 }
 
 .gallery input[name="select"]:checked + label:before {
-  border: 1px solid #000;
+  background-color: #F79646;   
 }
