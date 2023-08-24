@@ -195,14 +195,14 @@ a:visited {
 
 	.row {
 	  display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
     grid-gap: 45px;
 	}
 	.column {
+    float:left;
 	  padding: 16px;
     border: 1px solid #000000;
     border-radius: 25px;
-    grid-gap: 45px;
 	}
 
 @media screen and (max-width: 820px) {
