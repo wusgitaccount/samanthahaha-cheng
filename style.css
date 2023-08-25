@@ -194,15 +194,16 @@ a:visited {
 }
 
 	.row {
-	  display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 45px;
+	  display: flex;
+
 	}
 	.column {
+    position:relative;
     float:left;
-	  padding: 16px;
     border: 1px solid #000000;
     border-radius: 25px;
+    padding: 50px;
+
 	}
 
 @media screen and (max-width: 820px) {
