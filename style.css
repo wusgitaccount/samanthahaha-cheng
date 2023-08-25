@@ -194,21 +194,28 @@ a:visited {
 }
 
 	.row {
-	  display: grid;
-    grid-template-columns: auto 2fr;
-    grid-gap: 45px;
-    align-items: start;
+	  display: flex;
+   float:left;
+   column-gap: 30px;
     
 	}
-	.column {
-    float:left;
+	.column-1 {
     border: 1px solid #000000;
     border-radius: 25px;
     padding: 50px;
 
+
+	}
+	.column-2 {
+  
+    border: 1px solid #000000;
+    border-radius: 25px;
+    padding: 50px;
+    width: 60%;
+    
 	}
 
-	.column img{
+	.column-2 img{
 
     margin: auto;
     display: block;
