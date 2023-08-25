@@ -194,12 +194,14 @@ a:visited {
 }
 
 	.row {
-	  display: flex;
-   float:left;
-   column-gap: 30px;
+	  display: grid;
+        grid-template-columns: 40% 60%;
+    grid-gap: 45px;
+    align-items: start;
     
 	}
 	.column-1 {
+    float:left;
     border: 1px solid #000000;
     border-radius: 25px;
     padding: 50px;
@@ -207,15 +209,15 @@ a:visited {
 
 	}
 	.column-2 {
-  
+    float:left;
     border: 1px solid #000000;
     border-radius: 25px;
     padding: 50px;
-    width: 60%;
-    
+   
+
 	}
 
-	.column-2 img{
+	.row img{
 
     margin: auto;
     display: block;
