@@ -205,17 +205,14 @@ a:visited {
     border: 1px solid #000000;
     border-radius: 25px;
     padding: 50px;
-      position: relative;
+    position: relative;
 
 	}
 
 	.column img{
-    
-    overflow: clip;
-    overflow-clip-margin: content-box;
     margin: auto;
     display: block;
-   border-radius: 1%;
+    border-radius: 1%;
 	}
 
 @media screen and (max-width: 820px) {
