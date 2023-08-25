@@ -220,35 +220,7 @@ a:visited {
     border-radius: 1%;
 	}
 
-.big {
-  display: flex;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  width: 100vw;
-  height: 100vh;
-  margin: 0 3rem;
-  column-gap: 45px;
-}
 
-.left {
-  float:left;
-  position:relative;
-  overflow-y: hidden;
-  overflow-x: hidden;
-  width:30vw;
-}
-.right {
-  float:left;
-  width:70vw;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  border: 1px solid #000000;
-  border-radius: 25px;
-}
-	.right img{
-   display: block;
-  border-radius: 1%;
-	}
 
 @media screen and (max-width: 820px) {
   .boxes {
