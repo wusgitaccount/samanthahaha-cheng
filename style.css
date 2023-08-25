@@ -194,16 +194,28 @@ a:visited {
 }
 
 	.row {
-	  display: flex;
-
+	  display: grid;
+    grid-template-columns: auto 2fr;
+    grid-gap: 45px;
+    align-items: start;
+    
 	}
 	.column {
-    position:relative;
     float:left;
     border: 1px solid #000000;
     border-radius: 25px;
     padding: 50px;
+      position: relative;
 
+	}
+
+	.column img{
+    
+    overflow: clip;
+    overflow-clip-margin: content-box;
+    margin: auto;
+    display: block;
+   border-radius: 1%;
 	}
 
 @media screen and (max-width: 820px) {
