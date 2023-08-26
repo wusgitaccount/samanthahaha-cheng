@@ -222,17 +222,18 @@ a:visited {
 
 .sc-page {
   width: 100%;
-  overflow: hidden;
-  position:relative;
+ 
 }
 
 .sc-page-1-container{
   width: 30%;
   float: left;
-  overflow: hidden;
-  position: fixed;
+  position: sticky;
+   position: -webkit-sticky;
   border: 1px solid #000000;
-   border-radius: 25px;
+  border-radius: 25px;
+  top:0;
+  height:1000px;
 }
 .sc-page-1-intro{
   margin: 15%;
@@ -240,12 +241,10 @@ a:visited {
 .sc-page-2-container {
   width: 60%;
   float: right;
-  overflow: hidden;
   border: 1px solid #000000;
   border-radius: 25px;
 }
 .sc-page-2-images img{
-
   width:100%;
 }
 .sc-page-2-images {
