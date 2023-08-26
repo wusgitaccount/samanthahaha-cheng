@@ -220,7 +220,29 @@ a:visited {
     border-radius: 1%;
 	}
 
+.sc-page {
+  width: 100%;
+  overflow: hidden;
+  position:relative;
+}
 
+.sc-page-1-container{
+  width: 30%;
+  float: left;
+  overflow: hidden;
+  position: fixed;
+  border: 1px solid #000000;
+   border-radius: 25px;
+}
+.sc-page-1-intro{
+  margin: 3%;
+}
+.sc-page-2-container {
+  width: 70%;
+  float: right;
+  overflow: hidden;
+  padding: 3%;
+}
 
 @media screen and (max-width: 820px) {
   .boxes {
