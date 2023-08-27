@@ -225,18 +225,18 @@ align-items: center;
 }
 
 .sc-page-1-container{
-  width: 100%;
+  width: 30%;
   float: left;
-  position:absolute;
+  border-radius: 25px;
+  border: 1px solid #000000;
+  position: fixed;
+  overflow-y: scroll;
+  max-height: 100vh;
   
 }
 .sc-page-1-intro{
-  margin: 0%;
-  position:fixed;
-  overflow: scroll;
-  width:30%;
-  border-radius: 25px;
-  border: 1px solid #000000;
+  margin: 15%;
+
 }
 .sc-page-2-container {
   width: 60%;
