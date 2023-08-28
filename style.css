@@ -231,8 +231,8 @@ align-items: center;
   border: 1px solid #000000;
   position: fixed;
   overflow-y: scroll;
-  max-height: 100vh;
-    -ms-overflow-style: none;  /* IE and Edge */
+  max-height: 80vh;
+  -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
 .sc-page-1-intro{
