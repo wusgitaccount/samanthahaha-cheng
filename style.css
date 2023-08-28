@@ -269,6 +269,18 @@ align-items: center;
       grid-template-columns: auto;
       grid-template-rows: auto;
    }
+      .sc-page{
+  flex-direction:column;
+  }
+    .sc-page-1-container{
+    width:100%;
+    position: relative;
+  }
+  .sc-page-2-container{
+    width:100%;
+    flex-direction:column;
+    float: left;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -282,6 +294,18 @@ align-items: center;
    }
   .wrapper{
     margin:  0 5rem;
+  }
+    .sc-page{
+  flex-direction:column;
+  }
+      .sc-page-1-container{
+    width:100%;
+    position: relative;
+  }
+  .sc-page-2-container{
+    width:100%;
+    flex-direction:column;
+    float: left;
   }
   }
 
