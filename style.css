@@ -256,7 +256,8 @@ align-items: center;
 .sc-page-2-images {
   float: left;
   overflow: hidden;
-  margin: 10%;
+  margin: 0% 10% 10% 10%;
+  
   width:80%;
 }
 
