@@ -49,6 +49,14 @@ body {
   align-items: left;
   justify-content: top;
 }
+.contact{
+      width:70px;
+    height:60px;
+     background:#ffff90;
+    position:absolute;
+    top:0px;
+    right:0px;
+}
 
 .title {
     font-weight: normal;
