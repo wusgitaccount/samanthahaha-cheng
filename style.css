@@ -50,12 +50,10 @@ body {
   justify-content: top;
 }
 .contact{
-      width:70px;
-    height:60px;
-     background:#ffff90;
+
     position:absolute;
-    top:0px;
-    right:0px;
+    top:1em;
+    right:1em;
 }
 
 .title {
@@ -122,7 +120,6 @@ align-items: center;
     /* webkit-filter: blur(1px); /* Chrome, Safari, Opera 
     filter: blur(1px); */
     width: 100%;
- 
     padding: 50px;
     overflow: hidden;
     overflow-y: auto;
@@ -316,15 +313,11 @@ align-items: center;
     float: left;
   }
   }
+.contact span:hover{background-color: #000000;
+color:#fcfbf5;}
 
 .box-about:hover, .box-video:hover, .box-writing:hover, .box-concern:hover {
-     /*  box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green; 
-      transform: scale(1.5);    
-      border-radius: 0px 25px 25px 25px;
-      webkit-filter: blur(0px); 
-    filter: blur(0px);
-*/
-    animation: tilt-shaking 0.25s infinite;
+animation: tilt-shaking 0.25s infinite;
     
 }
 
