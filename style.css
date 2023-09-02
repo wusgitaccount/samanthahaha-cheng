@@ -85,7 +85,14 @@ body {
   display: inline-block;
   margin-top: 0;
 }
-
+.dot-about {
+  height: 10px;
+  width: 10px;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 0;
+}
 
 #myBtnContainer {
   max-height: 50px;
