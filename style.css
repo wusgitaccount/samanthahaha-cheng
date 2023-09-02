@@ -62,6 +62,30 @@ body {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+.dot-concern {
+  height: 10px;
+  width: 10px;
+  background-color: #F79646;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot-video {
+  height: 10px;
+  width: 10px;
+  background-color: #C0504D;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 0;
+}
+.dot-writing {
+  height: 10px;
+  width: 10px;
+  background-color: #4BACC6;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 0;
+}
+
 
 #myBtnContainer {
   max-height: 50px;
