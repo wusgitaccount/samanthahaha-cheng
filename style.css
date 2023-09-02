@@ -80,14 +80,14 @@ button{
   appearance: none;
   float: left;
 }
-.concern {
+.concern-f {
   height: 30px;
   width: 80px;
   float: left;
   /*border: 1px solid #8C3836;*/
   background-color: #F79646;   
 }
-.video {
+.video-f {
   height: 30px;
   width: 80px;
   float: left;
@@ -95,7 +95,7 @@ button{
   background-color: #C0504D;  
   
 }
-.writing {
+.writing-f {
   height: 30px;
   width: 10px;
   float: left;
@@ -124,8 +124,7 @@ align-items: center;
 }
 
 .box-about {
-    /* webkit-filter: blur(1px); /* Chrome, Safari, Opera 
-    filter: blur(1px); */
+
     width: 100%;
     padding: 50px;
     overflow: hidden;
@@ -139,11 +138,8 @@ align-items: center;
     float: left;
 }
 
-.box-video {     
-    /* webkit-filter: blur(1px); /* Chrome, Safari, Opera 
-    filter: blur(1px); */
+.video {     
     width: 100%;
-   
     padding: 15px;
     overflow: hidden;
     overflow-y: hidden;
@@ -155,16 +151,12 @@ align-items: center;
     float: left;
     background-color: #C0504D;  
 }
-.box-concern {     
-    /* webkit-filter: blur(1px); /* Chrome, Safari, Opera 
-    filter: blur(1px); */
+.concern {     
     width: 100%;
-
     padding: 15px;
     overflow: hidden;
     overflow-y: hidden;
     border-radius: 0px;
-    /*border: 2px solid #B66D31;*/
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -172,16 +164,12 @@ align-items: center;
     float: left;
     background-color: #F79646;  
 }
-.box-writing {     
-    /* webkit-filter: blur(1px); /* Chrome, Safari, Opera 
-    filter: blur(1px); */
+.writing {     
     width: 100%;
-  
     padding: 50px;
     overflow: hidden;
     overflow-y: auto;
     border-radius: 0px;
-    /*border: 2px solid #357D91;*/
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -325,7 +313,7 @@ align-items: center;
   background-color: #d3d3d3;
   }
 
-.box-about:hover, .box-video:hover, .box-writing:hover, .box-concern:hover {
+.box-about:hover, .video:hover, .writing:hover, .concern:hover {
 animation: tilt-shaking 0.25s infinite;
     
 }
@@ -338,7 +326,7 @@ animation: tilt-shaking 0.25s infinite;
   100% { transform: rotate(0deg); }
 }
 
-.concern:hover, .video:hover, .writing:hover  {
+.concern-f:hover, .video-f:hover, .writing-f:hover  {
     transform: scale(2);
 }
 
