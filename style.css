@@ -67,9 +67,6 @@ body {
   max-height: 50px;
   overflow-y: hidden;
 }
-.show {
-  display: block;
-}
 
 button{
   background-color: transparent;
@@ -159,10 +156,14 @@ a:visited {
     overflow-y: hidden;
     border-radius: 0px;
     text-decoration: none;
-    display: hidden;
     align-items: center;
     justify-content: center;
-    float: left;}
+    float: left;
+    display:none;}
+
+.show {
+  display: block;
+}
 
 .video {     
     background-color: #C0504D;  
