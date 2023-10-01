@@ -11,13 +11,7 @@ console.log("Hello 🌎");
 // ----- GLITCH STARTER PROJECT HELPER CODE -----
 
 //
-(function titleScroller(text) {
-    document.title = text;
-    console.log(text);
-    setTimeout(function () {
-        titleScroller(text.substr(1) + text.substr(0, 1));
-    }, 500);
-}(" Hello! Welcome to Samantha Cheng's virtual space :) "));
+
 
 filterSelection("all")
 function filterSelection(c) {
