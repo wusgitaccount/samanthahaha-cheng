@@ -61,19 +61,25 @@ body {
     margin-block-end: 0.67em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+
+  width: 22ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: ;
+
+
 }
 
-.title  {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  animation: 
-    typing 3.5s steps(30, end),
-    blink-caret .5s step-end infinite;
-}
-
-/* The typing effect */
 @keyframes typing {
-  from { width: 0% }
-  to { width: 100% }
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
 }
 
 .dot-concern {
