@@ -54,33 +54,17 @@ body {
 .title {
     font-weight: normal;
     margin: 0;
-    font-size: 2em;
-    padding-top: 1em;
+    font-size: 1.5em;
+    padding-top: 2em;
     display: block;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 
-  width: 22ch;
-  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-  white-space: nowrap;
-  overflow: ;
-
-
 }
 
-@keyframes typing {
-  from {
-    width: 0
-  }
-}
-    
-@keyframes blink {
-  50% {
-    border-color: transparent
-  }
-}
+
 
 .dot-concern {
   height: 10px;
