@@ -249,19 +249,21 @@ a:visited {
 #scroll-container {
   border-radius: 5px;
   height: 50px;
-  overflow: hidden;
+  overflow: hidden;  position: absolute;
 }
 
 #scroll-text {
   height: 100%;
   text-align: center;
+
   /* animation properties */
-  -moz-transform: translateY(100%);
-  -webkit-transform: translateY(100%);
-  transform: translateY(100%);
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
   -moz-animation: my-animation 5s linear infinite;
   -webkit-animation: my-animation 5s linear infinite;
   animation: my-animation 5s linear infinite;
+  white-space: nowrap !important;
 }
 
 /* for Firefox */
