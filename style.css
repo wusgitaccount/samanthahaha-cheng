@@ -61,7 +61,12 @@ body {
     margin-block-end: 0.67em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+  
+}
 
+@keyframes title {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
 }
 
 .dot-concern {
