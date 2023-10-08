@@ -246,50 +246,6 @@ a:visited {
   width:80%;
 }
 
-#scroll-container {
-  border-radius: 5px;
-  height: 50px;
-  width: 100%;
-  overflow: hidden;  
-  position: absolute;
-}
-
-#scroll-text {
-  text-align: center;
-  /* animation properties */
-  -moz-transform: translateX(100%);
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%);
-  -moz-animation: my-animation 10s linear infinite;
-  -webkit-animation: my-animation 10s linear infinite;
-  animation: my-animation 10s linear infinite;
-  white-space: nowrap !important;
-}
-
-/* for Firefox */
-@-moz-keyframes my-animation {
-  from { -moz-transform: translateY(100%); }
-  to { -moz-transform: translateY(-100%); }
-}
-
-/* for Chrome */
-@-webkit-keyframes my-animation {
-  from { -webkit-transform: translateY(100%); }
-  to { -webkit-transform: translateY(-100%); }
-}
-
-@keyframes my-animation {
-  from {
-    -moz-transform: translateY(100%);
-    -webkit-transform: translateY(100%);
-    transform: translateY(100%);
-  }
-  to {
-    -moz-transform: translateY(-100%);
-    -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
-  }
-}
 
 @media screen and (max-width: 820px) {
   .boxes {
@@ -313,6 +269,10 @@ a:visited {
     float: left;
   }
 }
+
+ marquee{
+    text-align: center;
+      }
 
 @media screen and (max-width: 768px) {
   .boxes {
