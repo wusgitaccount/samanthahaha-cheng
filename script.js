@@ -44,11 +44,25 @@ for (var i = 0; i < btns.length; i++) {
 }
 
 
-function zoom(e){
-  var zoomer = e.currentTarget;
-  e.offsetX ? offsetX = e.offsetX : offsetX = e.touches[0].pageX
-  e.offsetY ? offsetY = e.offsetY : offsetX = e.touches[0].pageX
-  x = offsetX/zoomer.offsetWidth*100
-  y = offsetY/zoomer.offsetHeight*100
-  zoomer.style.backgroundPosition = x + '% ' + y + '%';
-}
+
+  $('.tile')
+    // tile mouse actions
+    .on('mouseover', function(){
+      $(this).children('.photo').css({'transform': 'scale('+ $(this).attr('data-scale') +')'});
+    })
+    .on('mouseout', function(){
+      $(this).children('.photo').css({'transform': 'scale(1)'});
+    })
+    .on('mousemove', function(e){
+      $(this).children('.photo').css({'transform-origin': ((e.pageX - $(this).offset().left) / $(this).width()) * 100 + '% ' + ((e.pageY - $(this).offset().top) / $(this).height()) * 100 +'%'});
+    })
+    // tiles set up
+    .each(function(){
+      $(this)
+        // add a photo container
+        .append('<div class="photo"></div>')
+        // some text just to show zoom level on current item in this example
+        .append('<div class="txt"><div class="x">'+ $(this).attr('data-scale') +'x</div>ZOOM ON<br>HOVER</div>')
+        // set up a background image for each tile based on data-image attribute
+        .children('.photo').css({'background-image': 'url('+ $(this).attr('data-image') +')'});
+    })
