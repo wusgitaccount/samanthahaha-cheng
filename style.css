@@ -181,6 +181,7 @@ a:visited {
   overflow-y: auto;
   border-radius: 25px;
   border: 1px solid #000000;
+  background-color:#fcfbf5;
 }
 
 .video {
@@ -304,7 +305,9 @@ marquee {
 .video:hover,
 .writing:hover,
 .concern:hover {
-  animation: tilt-shaking 0.25s infinite;
+  /*animation: tilt-shaking 0.25s infinite;*/
+    transform: scale(1.5);
+    box-shadow: 0 0 50px 15px #48abe0;
 }
 
 @keyframes tilt-shaking {
