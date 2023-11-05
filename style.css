@@ -329,9 +329,10 @@ marquee {
 }
 
 .about-site {
-  position: fixed;
+  position: relative;
   bottom: 10px;
   left: 1em;
+  float:right;
 }
 /*TOP SECRET CSS*/
 
