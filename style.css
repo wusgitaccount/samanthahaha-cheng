@@ -328,7 +328,11 @@ marquee {
   }
 }
 
-
+.about-site {
+  position: fixed;
+  bottom: 10px;
+  left: 1em;
+}
 /*TOP SECRET CSS*/
 
 
