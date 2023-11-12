@@ -399,13 +399,15 @@ marquee {
 #mydiv {
   position: absolute;
   z-index: 9;
-  text-align: center;
+  text-align: center;  
+  cursor: move;
+  user-select: none;
 }
 
 #mydivheader {
-  padding: 10px;
-  cursor: move;
+
   z-index: 10;
+
 }
 #mydivheader img {
   transition: 0.3s;
