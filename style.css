@@ -400,7 +400,6 @@ marquee {
   position: absolute;
   z-index: 9;
   text-align: center;
-  border: 1px solid #d3d3d3;
 }
 
 #mydivheader {
