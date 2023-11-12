@@ -407,3 +407,11 @@ marquee {
   cursor: move;
   z-index: 10;
 }
+#mydivheader img {
+  transition: 0.3s;
+  filter: blur(5px);  /*		<----- required			*/
+}
+
+#mydivheader img:hover {
+  filter: blur(0);    /*		<----- required			*/
+}
