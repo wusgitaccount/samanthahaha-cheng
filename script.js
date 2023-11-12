@@ -110,3 +110,6 @@ function dragElement(elmnt) {
     document.onmousemove = null;
   }
 }
+$(function() {
+  $("#mydiv").draggable({  });//自由に
+});
