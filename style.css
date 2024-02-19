@@ -384,7 +384,7 @@ marquee {
 /*TOP SECRET CSS*/
 
 
- .photo {
+ .draggable ui-widget-content img{
     position: absolute;
     top: 0;
     left: 0;
@@ -396,24 +396,4 @@ marquee {
     transition: transform .5s ease-out;
   }
 
-#mydiv {
-  position: absolute;
-  z-index: 9;
-  text-align: center;  
-  cursor: move;
-  user-select: none;
-}
 
-#mydivheader {
-
-  z-index: 10;
-
-}
-#mydivheader img {
-  transition: 0.3s;
-  filter: blur(5px);  /*		<----- required			*/
-}
-
-#mydivheader img:hover {
-  filter: blur(0);    /*		<----- required			*/
-}
