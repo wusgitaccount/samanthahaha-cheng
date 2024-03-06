@@ -185,14 +185,18 @@ a:visited {
 }
 
 .video {
-  background-color: #c0504d;
+  border: 1px solid #c0504d;
+  background-color:#fcfbf5;
 }
 .concern {
-  background-color: #f79646;
+  border: 1px solid #f79646;
+  background-color:#fcfbf5;
+  
 }
 .writing {
   padding: 50px;
-  background-color: #4bacc6;
+  border: 1px solid #4bacc6;
+  background-color:#fcfbf5;
 }
 
 .boxes img {
