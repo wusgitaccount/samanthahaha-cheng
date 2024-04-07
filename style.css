@@ -385,7 +385,23 @@ marquee {
 }
 
 
-/*TOP SECRET CSS*/
+/*LIST VIEW CSS*/
+
+.list-item {
+  width: 200px;
+  height: 100%;
+  background: rgba(255, 0, 0, 0.1);
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.scroll { 
+  height: 100vh;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  width: auto;
+}
 
 
 
