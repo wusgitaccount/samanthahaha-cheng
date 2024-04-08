@@ -388,12 +388,13 @@ marquee {
 /*LIST VIEW CSS*/
 
 .list-item {
-  width: 25vw;
+  width: 400px;
   height: 100%;
   background: rgba(255, 0, 0, 0.1);
   margin-left: 10px;
   display: inline-block;
-  overflow-x: scroll;
+  overflow-y: scroll;
+
   padding: 20px;
   
 
