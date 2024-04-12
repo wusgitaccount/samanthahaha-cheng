@@ -394,17 +394,19 @@ marquee {
   margin-left: 10px;
   display: inline-block;
   overflow-y: scroll;
-
   padding: 20px;
-  
+      white-space: wrap;
+
 
 }
 
 .scroll { 
   height: 100vh;
+    width: auto;
   overflow-x: scroll;
   overflow-y: hidden;
-  width: auto;
+    white-space: nowrap;
+
 }
 
 
