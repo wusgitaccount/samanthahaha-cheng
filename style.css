@@ -386,18 +386,26 @@ marquee {
 
 
 /*LIST VIEW CSS*/
-
-.list-item {
+.intro {
   width: 400px;
   height: 100%;
-  background: rgba(255, 0, 0, 0.1);
   margin-left: 10px;
   display: inline-block;
   overflow-y: scroll;
   padding: 20px;
-      white-space: wrap;
+  white-space: wrap;
+  position: sticky;
+}
 
-
+.list-item {
+  width: 400px;
+  height: 100%;
+  margin-left: 10px;
+  display: inline-block;
+  overflow-y: scroll;
+  padding: 20px;
+  white-space: wrap;
+  position:relative;
 }
 
 .scroll { 
