@@ -394,7 +394,7 @@ marquee {
   overflow-y: scroll;
   padding: 20px;
   white-space: wrap;
-  position: sticky;
+  position: fixed;
 }
 
 .list-item {
@@ -410,10 +410,10 @@ marquee {
 
 .scroll { 
   height: 100vh;
-    width: auto;
+  width: auto;
   overflow-x: scroll;
   overflow-y: hidden;
-    white-space: nowrap;
+  white-space: nowrap;
 
 }
 
