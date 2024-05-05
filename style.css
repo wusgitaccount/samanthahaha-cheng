@@ -67,6 +67,9 @@ body {
   background-color: #d3d3d3;
 }
 
+.sc-page-1-intro span:hover {  background-color: #d3d3d3;
+}
+
 .dot-concern {
   height: 10px;
   width: 10px;
