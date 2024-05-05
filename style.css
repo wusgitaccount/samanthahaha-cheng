@@ -307,8 +307,8 @@ a:visited {
 
 .box-about:hover,
 .video:hover,
-.writing:hover,
-.concern:hover {
+.exhibition:hover,
+.event:hover {
   /*animation: tilt-shaking 0.25s infinite;*/
     transform: scale(2);
     box-shadow: 0 0 50px 15px #d3d3d3;
