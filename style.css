@@ -118,9 +118,7 @@ body {
   cursor: pointer;
   text-decoration: underline;
 }
-.btn.active {
-   text-decoration: underline;
-}
+
 
 /* .concern-f {
   float: left;
