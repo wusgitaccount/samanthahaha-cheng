@@ -110,12 +110,13 @@ body {
   padding: 0px 0px;
   background-color: #fcfbf5;
   cursor: pointer;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 .btn:hover {
   background-color: #d3d3d3;
   cursor: pointer;
+  text-decoration: underline;
 }
 .btn.active {
    text-decoration: underline;
