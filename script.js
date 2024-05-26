@@ -69,7 +69,7 @@ $('.tile')
 
 //Make the DIV element draggagle:
 
-$(function() {
-  $("#img1").draggable({  });
-});
+  $( function() {
+    $( ".draggable" ).draggable({ stack: ".draggable" });
+  } );
 
