@@ -432,24 +432,25 @@ p.copyright {
 	text-align: center;
 	bottom:0;
 }
+
 /*draggable images*/
 
-.draggable ui-widget-content img {
+.drag img {
   height: 150px; 
   overflow: hidden;
   cursor: move;
   display: block;
   position: fixed;
 }
-.draggable ui-widget-content img:nth-child(1) {
+.dragimg:nth-child(1) {
   left: 1vw;
   top: 1vw;
 }
-img:nth-child(2) {
+.drag img:nth-child(2) {
   left: 2vw;
   top: 2vw;
 }
-img:nth-child(3) {
+.drag  img:nth-child(3) {
   left: 3vw;
   top: 3vw;
 }
