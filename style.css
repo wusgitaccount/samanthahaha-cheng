@@ -442,7 +442,7 @@ p.copyright {
   display: block;
   position: fixed;
 }
-.dragimg:nth-child(1) {
+.drag img:nth-child(1) {
   left: 1vw;
   top: 1vw;
 }

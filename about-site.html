@@ -18,13 +18,22 @@
   <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
 
 
+
 </head>
   
 <body>
   <br>
   ---------- WORK IN PROGRESS ----------
 <br><br>
-<div class="drag">
+  <script src="js/jquery-1.6.2.min.js" type="text/javascript"></script>
+<script src="js/jquery-ui-1.8.16.custom.min.js" type="type/javascript"></script>
+<script src="js/ui/jquery.ui.draggable.js" type="type/javascript"></script>
+<script type="text/javascript">
+    $(function() {
+        $( ".drag" ).draggable();
+    });
+</script>
+<div id="aboutBox" class="boxLook boxBg drag">
   
 <img class="draggable ui-widget-content" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Jan_Vermeer_-_The_Art_of_Painting_-_Google_Art_Project.jpg/1280px-Jan_Vermeer_-_The_Art_of_Painting_-_Google_Art_Project.jpg" alt=""/>
     </div>
