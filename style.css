@@ -442,11 +442,11 @@ p.copyright {
   display: block;
   position: fixed;
 }
-img:nth-child(1) {
+.draggable img:nth-child(1) {
   left: 1vw;
   top: 1vw;
 }
-img:nth-child(2) {
+.draggable img:nth-child(2) {
   left: 2vw;
   top: 2vw;
 }
