@@ -435,22 +435,22 @@ p.copyright {
 
 /*draggable images*/
 
-.drag img {
+.draggable img {
   height: 150px; 
   overflow: hidden;
   cursor: move;
   display: block;
   position: fixed;
 }
-.drag img:nth-child(1) {
+img:nth-child(1) {
   left: 1vw;
   top: 1vw;
 }
-.drag img:nth-child(2) {
+img:nth-child(2) {
   left: 2vw;
   top: 2vw;
 }
-.drag  img:nth-child(3) {
+.draggable  img:nth-child(3) {
   left: 3vw;
   top: 3vw;
 }
