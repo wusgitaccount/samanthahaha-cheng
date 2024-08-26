@@ -433,13 +433,16 @@ p.copyright {
 }
 
 /*draggable images*/
-
+.cb-container {
+  width:5000px;
+  height:5000px;
+}
 .draggable img {
-  height: 150px; 
+  height: 300px; 
   overflow: hidden;
   cursor: move;
   display: block;
-  position: fixed;
+  position:absolute;
 }
 .draggable img:nth-child(1) {
   left: 1vw;
