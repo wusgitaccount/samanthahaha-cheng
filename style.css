@@ -436,13 +436,18 @@ p.copyright {
 .cb-container {
   width:5000px;
   height:5000px;
+  overflow:auto;
+}
+.draggable  {
+overflow:auto;
+resize:both;
 }
 .draggable img {
   height: 300px; 
   overflow: hidden;
   cursor: move;
-  display: block;
-  position:absolute;
+  display: block; 
+
 }
 .draggable img:nth-child(1) {
   left: 1vw;
