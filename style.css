@@ -432,6 +432,15 @@ p.copyright {
 	bottom:0;
 }
 
+
+/*draggable images*/
+.cb-container {
+  width:5000px;
+  height:5000px;
+  overflow:auto;
+}
+
+
 details > summary {
   padding: 4px;
   width: 200px;
@@ -441,20 +450,14 @@ details > summary {
 }
 
 details > summary img {
-  width:30%;
-  height: auto;
-}
+  max-width: 30%;
+  max-height:50px;
+ }
 
 details > p img {
- max-width:100%;
+ max-width:200%;
 }
 
-/*draggable images*/
-.cb-container {
-  width:5000px;
-  height:5000px;
-  overflow:auto;
-}
 .draggable  {
 overflow:auto;
 resize:both;
