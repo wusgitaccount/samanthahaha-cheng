@@ -432,6 +432,23 @@ p.copyright {
 	bottom:0;
 }
 
+details > summary {
+  padding: 4px;
+  width: 200px;
+  border: none;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  cursor: pointer;
+}
+
+details > summary img {
+  width:30%;
+  height: auto;
+}
+
+details > p img {
+ max-width:100%;
+}
+
 /*draggable images*/
 .cb-container {
   width:5000px;
