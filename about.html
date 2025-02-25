@@ -12,7 +12,7 @@
 
     <title>about me</title>
     <link rel="stylesheet" href="/style.css" />
-    <script src="/script.js" ></script>
+    <script src="/script.js" defer></script>
   </head>
   <body>
 
@@ -47,11 +47,9 @@
 
         <div class="sc-page-2-container">
           <div class="sc-page-2-images">
-image[0] = "https://cdn.glitch.global/14bb67ac-adb6-4a51-99f4-2c2736b9b777/Samantha%20default%20photo.jpg?v=1696203192194";
-image[1] = "https://cdn.glitch.global/14bb67ac-adb6-4a51-99f4-2c2736b9b777/Sam%20photo%202.png?v=1740452804353";
-image[2] = "https://cdn.glitch.global/14bb67ac-adb6-4a51-99f4-2c2736b9b777/Sam%20photo.png?v=1740452845059";            <img
-              src="https://cdn.glitch.global/14bb67ac-adb6-4a51-99f4-2c2736b9b777/Samantha%20default%20photo.jpg?v=1696203192194"
-            />
+             <img id="randomImage" alt="Artist Image"/>
+
+
             <br /><br />
           </div>
         </div>
@@ -59,5 +57,20 @@ image[2] = "https://cdn.glitch.global/14bb67ac-adb6-4a51-99f4-2c2736b9b777/Sam%2
 
       </div>
     </div>
+    
+      <script>
+        const imageArray = [
+            "https://cdn.glitch.global/14bb67ac-adb6-4a51-99f4-2c2736b9b777/Samantha%20default%20photo.jpg?v=1696203192194",
+            "https://cdn.glitch.global/14bb67ac-adb6-4a51-99f4-2c2736b9b777/Sam%20photo%202.png?v=1740452804353",
+            "https://cdn.glitch.global/14bb67ac-adb6-4a51-99f4-2c2736b9b777/Sam%20photo.png?v=1740452845059"
+        ];
+
+        const randomIndex = Math.floor(Math.random() * imageArray.length);
+        document.getElementById("randomImage").src = imageArray[randomIndex];
+    </script>
+    
   </body>
+  
+
+  
 </html>
