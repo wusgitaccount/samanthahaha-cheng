@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Site crafted with luv by Sophia Wu - sophiawu.nz -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description"
+          content="Samantha Cheng (she/her) works across installation, sculpture and video to seek out and devise humourous encounters in art making. In her practice these are strategies to reconsider failure as a generative space for making performative gestures that operate as an ongoing rehearsal for the real world. Based in Tāmaki Makaurau, she can often be found attempting ideas such as running into the sunset, taking holidays during 10-minute work breaks, and occasionally working on her postgraduate research."/>
+    <meta name="keywords"
+          content="teabag, passengers, video, art, artist, train, maximum, auckland, aut, nz"/>
+    <meta name="author" content="Samantha Cheng" />
+    <link
+      id="favicon"
+      rel="icon"
+      href="./assets/favicon.png"
+      type="image/x-icon"
+    />
+    <title>Samantha Cheng</title>
+
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="content" role="main">
+        <p class="title">
+          <span>
+            <a href="index.html" title="Show all"> Samantha Cheng</a></span
+          >
+        </p>
+
+        <div class="contact">
+          <span
+            ><a
+              href="mailto:samanthahaha.cheng@gmail.com?subject=[Achieving goal] is easier than ever now with [your company name]
+&body=This is only a test!"
+              >contact me ↗&#xFE0E;</a
+            > </span
+          ><br />
+          <span
+            ><a
+              href="https://www.instagram.com/samanthahaha.cheng/"
+              target="new"
+              >instagram ↗&#xFE0E;</a
+            > </span
+          ><br />
+        </div>
+
+        <div id="myBtnContainer">
+          <button
+            class="btn"
+            onclick="filterSelection('exhibition')"
+            style="color: #f79646"
+          >
+            exhibition,
+          </button>
+          <button
+            class="btn"
+            onclick="filterSelection('research')"
+            style="color: #c0504d"
+          >
+            research,
+          </button>
+          <button
+            class="btn"
+            onclick="filterSelection('event')"
+            style="color: #4bacc6"
+          >
+            event,
+          </button>
+          <button
+            class="btn"
+            onclick="filterSelection('video')"
+            style="color: #ebd999"
+          >
+            video,
+          </button>
+          <button
+            class="btn"
+            onclick="filterSelection('group')"
+            style="color: #ebd999"
+          >
+            group,
+          </button>
+          <button
+            class="btn"
+            onclick="filterSelection('mess')"
+            style="color: #ebd999"
+          >
+            mess,
+          </button>
+          <button
+            class="btn"
+            onclick="filterSelection('installation')"
+            style="color: #ebd999"
+          >
+            installation,
+          </button>
+          <button
+            class="btn"
+            onclick="filterSelection('sculpture')"
+            style="color: #ebd999"
+          >
+            sculpture,
+          </button>
+          <button
+            class="btn"
+            onclick="filterSelection('out of town')"
+            style="color: #ebd999"
+          >
+            out of town,
+          </button>
+          <button
+            class="btn active"
+            onclick="filterSelection('all')"
+            style="color: #ebd999"
+          >
+            everything
+          </button>
+        </div>
+
+        <div class="boxes">
+          <!--
+      Below is the "about me" button, don't move this!
+    -->
+          <a href="about.html">
+            <div class="filterDiv box-about">
+              <p>about me</p>
+            </div>
+          </a>
+          <!--
+      Add artworks starting from here:
+
+          <a href="plan-for-bad-weather.html">
+            <div class="filterDiv exhibition group installation sculpture mess">
+              <p>
+                <img
+                  src="https://cdn.glitch.global/14bb67ac-adb6-4a51-99f4-2c2736b9b777/6_gone%20meanwhile.jpg?v=1692914627870"
+                />
+                <br />
+                <i>Plan for bad weather</i>, 2025
+              </p>
+            </div>
+          </a>
+              -->
+          <a href="back-room.html">
+            <div class="filterDiv exhibition group installation sculpture">
+              <p>
+                <img
+                src="./assets/backroom_1.JPG"
+                />
+                <br />
+                <i>Back Room</i>, 2024
+              </p>
+            </div>
+          </a>
+
+          <a href="maximum-potential-now.html">
+            <div
+              class="filterDiv exhibition group out of town installation sculpture"
+            >
+              <p>
+                <img
+                src="./assets/mpn_1.jpg"
+                />
+                <br />
+                <i>Maximum Potential NOW</i>, 2024
+              </p>
+            </div>
+          </a>
+
+          <a href="rumpus.html">
+            <div class="filterDiv exhibition group installation">
+              <p>
+                <img
+                src="./assets/Rumpus_6.jpg"
+                />
+                <br />
+                <i>Rumpus</i>, 2023
+              </p>
+            </div>
+          </a>
+
+          <a href="passengers.html">
+            <div class="filterDiv event group">
+              <p>
+                <img
+                src="./assets/Passengers_1.jpg"
+                />
+                <br />
+                <i>Passengers</i>, 2023
+              </p>
+            </div>
+          </a>
+
+          <a href="mass-mess.html">
+            <div class="filterDiv exhibition mess installation sculpture">
+              <p>
+                <img
+                src="./assets/1_massmess.jpg"
+                />
+                <br />
+                <i>Mass/mess</i>, 2023
+              </p>
+            </div>
+          </a>
+
+          <a href="interim-express.html">
+            <div class="filterDiv exhibition installtion sculpture">
+              <p>
+                <img
+                src="./assets/4_interim express.jpg"
+                />
+                <br />
+                <i>Interim Express</i>, 2022
+              </p>
+            </div>
+          </a>
+
+          <a href="take-a-10.html">
+            <div class="filterDiv video research">
+              <p>
+                <img
+                src="./assets/2_take a 10.jpg"
+                />
+                <br />
+                <i>Take a 10</i>, 2022-3
+              </p>
+            </div>
+          </a>
+
+          <a href="ambient-television-2.html">
+            <div class="filterDiv video research">
+              <p>
+                <img
+                src="./assets/at2_1.jpg"
+                />
+                <br />
+                <i>Ambient Television 2</i>, 2022
+              </p>
+            </div>
+          </a>
+
+          <a href="surface-level.html">
+            <div class="filterDiv exhibition group installation sculpture">
+              <p>
+                <img
+                src="./assets/10_surface level.jpg"
+                />
+                <br />
+                <i>Surface Level</i>, 2022
+              </p>
+            </div>
+          </a>
+
+          <a href="gone-meanwhile.html">
+            <div class="filterDiv exhibition installation mess sculpture">
+              <p>
+                <img
+                src="./assets/1_gonemeanwhile.jpg"
+                />
+                <br />
+                <i>Gone meanwhile back soon</i>, 2021
+              </p>
+            </div>
+          </a>
+          <!--
+
+            <div class="filterDiv box-about">
+              <p>
+                <input type="text" id="username" name="username"><br>
+                <a href="top-secret.html">
+                  <input type="submit" value="Submit"> </a><br><br>
+                <i>I’m not really a waitress</i>, 2021-2
+              </p>
+            </div>
+
+
+          <div class="filterDiv concern">
+            <p><i></i>, 2023-</p>
+          </div>
+
+          <a href="index.html">
+            <div class="filterDiv box-about">
+              <h1>...</h1>
+            </div>
+          </a>  -->
+
+          <div id="container">
+            <div id="circle">
+              <svg
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                width="300px"
+                height="300px"
+                viewbox="0 0 300 300"
+                enable-background="new 0 0 300 300"
+                xml:space="preserve"
+              >
+                <defs>
+                  <path
+                    id="circlePath"
+                    d=" M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 "
+                  />
+                </defs>
+                <circle cx="100" cy="100" r="75" fill="none" />
+                <g>
+                  <use xlink:href="#circlePath" fill="none" />
+                  <text fill="#000">
+                    <a href="filing-cabinet.html">
+                      <textpath xlink:href="#circlePath">
+                        filing cabinet
+                      </textpath>
+                    </a>
+                  </text>
+                </g>
+              </svg>
+            </div>
+          </div>
+
+          <footer>
+            <p class="copyright">
+              The artist retains copyright of all works unless specified.
+            </p>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
